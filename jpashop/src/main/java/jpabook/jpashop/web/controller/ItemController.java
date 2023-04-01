@@ -1,4 +1,4 @@
-package jpabook.jpashop.web;
+package jpabook.jpashop.web.controller;
 
 import jpabook.jpashop.service.ItemService;
 import lombok.RequiredArgsConstructor;
@@ -12,8 +12,5 @@ public class ItemController {
 
     private final ItemService itemService;
 
-    @GetMapping(value = "/items/new")
-    public String createForm(Model model) {
 
-    }
 }
